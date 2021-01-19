@@ -1,0 +1,10 @@
+Name:
+input.txt (kann als 1. parameter angegeben werden)
+
+Format:
+[coords=abs|rel]	// 1. Zeile, optional, default = rel
+[res=1920x1280]		// 2. Zeile, optional (nur bei abs in 1. Zeile)
+
+Datenzeilen (0-n):
+x y [ldown] [rdown]		// ldown = left mouse down, rdown = right mouse down, empty = release
+wait 15					// wait msec

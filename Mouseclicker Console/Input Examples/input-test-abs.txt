@@ -1,0 +1,5 @@
+coords=abs
+res=1920x1280
+300 300 ldown
+wait 1000
+400 300
